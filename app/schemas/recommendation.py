@@ -9,3 +9,10 @@ class RecommendationOutput(BaseModel):
     subclasse: str
     desempenho: float
     score_predito: float
+
+
+class IRTRecommendationOutput(BaseModel):
+    classe: str
+    subclasse: str
+    prioridade: float
+    metrica: str

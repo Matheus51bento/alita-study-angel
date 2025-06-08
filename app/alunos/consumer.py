@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import asyncio
 import httpx
@@ -22,8 +23,15 @@ async def enviar_arquivo_para_api(caminho_arquivo):
             print(f"[✗] Erro ao enviar {caminho_arquivo}:")
             traceback.print_exc()
 
+def extrair_numero(nome):
+    match = re.search(r"(\d+)", nome)
+    return int(match.group(1)) if match else -1
+
 async def main():
-    arquivos = [f for f in os.listdir(PASTA_ARQUIVOS) if f.endswith(".json")]
+    arquivos = sorted(
+        [f for f in os.listdir(PASTA_ARQUIVOS) if f.endswith(".json")],
+        key=extrair_numero
+    )[:20]
     
     for arquivo in arquivos:
         caminho = os.path.join(PASTA_ARQUIVOS, arquivo)

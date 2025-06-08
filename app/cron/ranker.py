@@ -1,13 +1,10 @@
 import os
-import pickle
 import pandas as pd
 import joblib
 
 from sqlalchemy.ext.asyncio import AsyncSession
 from xgboost import XGBRanker
 from sqlalchemy.future import select
-from datetime import datetime
-from apscheduler.schedulers.asyncio import AsyncIOScheduler
 
 from app.models.performance import Performance
 from app.db.engine import engine
@@ -18,6 +15,9 @@ async def carregar_dados_para_ranker(session: AsyncSession):
     query = await session.execute(select(Performance))
     resultados = query.scalars().all()
 
+    if not resultados:
+        return {}
+
     df = pd.DataFrame([r.__dict__ for r in resultados])
     df = df.drop(columns=["_sa_instance_state", "id"])
 
@@ -26,12 +26,25 @@ async def carregar_dados_para_ranker(session: AsyncSession):
     df = df.sort_values(["student_id", "data"])
 
     features = ["peso_classe", "peso_subclasse", "peso_por_questao"]
-    X = df[features]
-    y = df["score"]
 
-    group = df.groupby(["student_id", "data"]).size().tolist()
+    dados_por_aluno = {}
 
-    return X, y, group, df
+    for student_id, df_aluno in df.groupby("student_id"):
+        if len(df_aluno) < 5:
+            continue
+
+        X = df_aluno[features]
+        y = df_aluno["score"]
+        group = df_aluno.groupby("data").size().tolist()
+
+        dados_por_aluno[student_id] = {
+            "X": X,
+            "y": y,
+            "group": group,
+            "df": df_aluno.reset_index(drop=True)
+        }
+
+    return dados_por_aluno
 
 def treinar_ranker(X, y, group):
     model = XGBRanker(
@@ -65,18 +78,16 @@ def recomendar_para_aluno(model, df, student_id, data):
 
 async def treinar_modelos_para_todos_os_alunos():
     async with AsyncSession(engine) as session:
-        X, y, group, df = await carregar_dados_para_ranker(session)
+        dados_por_aluno = await carregar_dados_para_ranker(session)
 
-        for (student_id, data), gsize in zip(df.groupby(["student_id", "data"]).groups.keys(), group):
-            dados_aluno = df[(df["student_id"] == student_id) & (df["data"] == data)]
-            if len(dados_aluno) < 3:
-                continue  # não há dados suficientes
+        for student_id, dados in dados_por_aluno.items():
+            X_aluno = dados["X"]
+            y_aluno = dados["y"]
+            group_aluno = dados["group"]
+            df_aluno = dados["df"]
 
-            X_aluno = dados_aluno[["peso_classe", "peso_subclasse", "peso_por_questao"]]
-            y_aluno = dados_aluno["score"]
+            model = treinar_ranker(X_aluno, y_aluno, group=group_aluno)
 
-            model = treinar_ranker(X_aluno, y_aluno, group=[len(X_aluno)])
-
-            path = f"modelos/student_{student_id}"
+            path = f"{BASE_DIR}/student_{student_id}"
             os.makedirs(path, exist_ok=True)
             joblib.dump(model, f"{path}/model.pkl")

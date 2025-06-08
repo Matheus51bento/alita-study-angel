@@ -45,6 +45,34 @@ def escolher_metrica_disp(df,
     print(f"μ(p_norm) = {mean_p:.3f}, σ = {std_p:.3f}, CV = {cv:.3f}")
     return df
 
+
+def irt_prioridade(df, eps=1e-6, thr_cv_irt=0.5, thr_cv_sqrt=0.2):
+    df = df.copy()
+    df["p_norm"] = (df["desempenho"] + 1) / 2
+    mean_p = df["p_norm"].mean()
+    std_p = df["p_norm"].std()
+    cv = std_p / (mean_p + eps)
+
+    df["p_clip"] = df["p_norm"].clip(eps, 1 - eps)
+
+    if cv >= thr_cv_irt:
+        df["lacuna"] = -np.log(df["p_clip"] / (1 - df["p_clip"]))
+        df["metrica"] = "IRT 2PL"
+    elif cv >= thr_cv_sqrt:
+        df["lacuna"] = np.sqrt(1 - df["p_norm"])
+        df["metrica"] = "sqrt(1-p)"
+    else:
+        df["lacuna"] = 1 - df["p_norm"]
+        df["metrica"] = "linear(1-p)"
+
+    df["prioridade"] = (
+        df["lacuna"]
+        * df["peso_classe"]
+        * df["peso_subclasse"]
+        * df["peso_por_questao"]
+    )
+    return df
+
 # df = pd.read_csv("aluno2.csv")
 # res = escolher_metrica_disp(df)
 

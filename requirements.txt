@@ -15,3 +15,5 @@ matplotlib==3.10.1
 alembic==1.15.2
 xgboost==3.0.2
 APScheduler==3.11.0
+httpx==0.28.1
+rich==14.0.0

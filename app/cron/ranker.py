@@ -1,5 +1,6 @@
 import os
 import joblib
+import numpy as np
 import logging
 import pandas as pd
 
@@ -14,6 +15,20 @@ logger = logging.getLogger("ranker_trainer")
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 
 BASE_DIR = "modelos"
+
+def dcg(relevancias, k):
+    relevancias = np.asarray(relevancias)[:k]
+    if relevancias.size:
+        return relevancias[0] + np.sum(relevancias[1:] / np.log2(np.arange(2, relevancias.size + 1)))
+    return 0.0
+
+def ndcg(y_true, y_pred, k=5):
+    order = np.argsort(y_pred)[::-1]
+    y_true_sorted = np.take(y_true, order)
+    dcg_max = dcg(sorted(y_true, reverse=True), k)
+    if dcg_max == 0:
+        return 0.0
+    return dcg(y_true_sorted, k) / dcg_max
 
 async def carregar_dados_para_ranker(session: AsyncSession):
     query = await session.execute(select(Performance))
@@ -63,31 +78,27 @@ def treinar_ranker(X, y, group):
     model.fit(X, y, group=group)
     return model
 
-
 async def treinar_modelos_para_todos_os_alunos():
     async with AsyncSession(engine) as session:
         dados_por_aluno = await carregar_dados_para_ranker(session)
 
-        total = len(dados_por_aluno)
-        sucesso, falha = 0, 0
-
         for student_id, dados in dados_por_aluno.items():
-            try:
-                logger.info(f"Iniciando treino para aluno {student_id}")
-                model = treinar_ranker(dados["X"], dados["y"], group=dados["group"])
+            X = dados["X"]
+            y = dados["y"]
+            group = dados["group"]
+            df_aluno = dados["df"]
 
-                path = f"{BASE_DIR}/student_{student_id}"
-                os.makedirs(path, exist_ok=True)
-                joblib.dump(model, f"{path}/model.pkl")
+            if len(X) < 5:
+                continue
 
-                logger.info(f"Modelo salvo com sucesso para aluno {student_id}")
-                sucesso += 1
+            model = treinar_ranker(X, y, group)
 
-            except Exception as e:
-                logger.error(f"Erro ao treinar modelo para aluno {student_id}: {e}")
-                falha += 1
+            # Avaliação usando NDCG
+            y_pred = model.predict(X)
+            score_ndcg = ndcg(y_true=y.values, y_pred=y_pred, k=5)
+            logger.info(f"[Aluno {student_id}] NDCG@5 = {score_ndcg:.4f}")
 
-        logger.info("Treinamento concluído.")
-        logger.info(f"Total de alunos processados: {total}")
-        logger.info(f"Modelos treinados com sucesso: {sucesso}")
-        logger.info(f"Falhas no treinamento: {falha}")
+            # Salvar modelo
+            path = f"modelos/student_{student_id}"
+            os.makedirs(path, exist_ok=True)
+            joblib.dump(model, f"{path}/model.pkl")

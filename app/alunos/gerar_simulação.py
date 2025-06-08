@@ -77,7 +77,7 @@ def gerar_simulacao_de_desempenho(df, student_id, dias=200, resultados=None):
 
     # Adiciona o student_id no resultado
     for item in resultado_dia:
-        item["student_id"] = student_id
+        item["student_id"] = str(student_id)
 
     resultados.append(deepcopy(resultado_dia))
 
@@ -100,7 +100,7 @@ def gerar_arquivos_de_desempenho(dados, dias=200, aluno="aluno"):
         print(f"Arquivo gerado: {arquivo_nome}")
 
 
-df = pd.read_csv("aluno2.csv")
+df = pd.read_csv("alunos/aluno2.csv")
 
 # Gerar simulação de 200 dias de desempenho
 dados_simulados = gerar_simulacao_de_desempenho(df, 8000, dias=200)

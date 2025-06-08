@@ -9,6 +9,7 @@ pytest app/test.py
 
 Coverage
 
+sudo systemctl stop postgresql
 
 ## Docker
 

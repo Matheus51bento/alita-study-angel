@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from app.db.database import lifespan
 from app.routers.performance import performance_router
 from app.routers.ranker import recomendacao_router
+from app.routers.dkt import dkt_router
 
 import logging
 from typing import List
@@ -24,6 +25,7 @@ app = FastAPI(lifespan=lifespan)
 # Rotas da aplicação
 app.include_router(performance_router, prefix="/api/v1", tags=["performance"])
 app.include_router(recomendacao_router, prefix="/api/v1", tags=["ranker"])
+app.include_router(dkt_router, prefix="/api/v1", tags=["dkt"])
 
 @app.get("/")
 def read_root():

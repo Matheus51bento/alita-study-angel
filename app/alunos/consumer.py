@@ -5,8 +5,8 @@ import asyncio
 import httpx
 import traceback
 
-API_URL = "http://localhost:8000/api/v1/performance/batch/"  # ajuste se necessário
-PASTA_ARQUIVOS = "./alunos/output/aluno"  # pasta onde estão os arquivos
+API_URL = "http://localhost:8000/api/v1/performance/batch/"
+PASTA_ARQUIVOS = "./output/aluno_1000"  # pasta onde estão os arquivos
 
 async def enviar_arquivo_para_api(caminho_arquivo):
     async with httpx.AsyncClient(timeout=30) as client:

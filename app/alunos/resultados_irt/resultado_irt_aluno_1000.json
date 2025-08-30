@@ -1,0 +1,2202 @@
+[
+  {
+    "dia": 1,
+    "ndcg5": 1.0,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": -0.4684846402571826,
+        "prioridade": 212.02495543599233,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": -0.4022291517624026,
+        "prioridade": 25.984048948588054,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.711685293166847,
+        "prioridade": 21.97853042229314,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": -0.1838778889290238,
+        "prioridade": 18.79285510988583,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.1604657735449286,
+        "prioridade": 15.496732082563202,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.229015"
+  },
+  {
+    "dia": 2,
+    "ndcg5": 1.0,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": -0.4473350069887719,
+        "prioridade": 210.4925889432791,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": -0.3370512631857386,
+        "prioridade": 25.372973107778495,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.6319260893372671,
+        "prioridade": 21.46035656002396,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": -0.12601630766497515,
+        "prioridade": 18.32785544628158,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.2304869683965481,
+        "prioridade": 14.836412891114815,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.231307"
+  },
+  {
+    "dia": 3,
+    "ndcg5": 1.0,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": -0.41522396435884323,
+        "prioridade": 208.1444634910478,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": -0.25279630985559853,
+        "prioridade": 24.56052028617311,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.5371295209036229,
+        "prioridade": 20.827729198751978,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": -0.0542938165344278,
+        "prioridade": 17.734548666395497,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.31857757337315945,
+        "prioridade": 13.961405238829096,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.233414"
+  },
+  {
+    "dia": 4,
+    "ndcg5": 1.0,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": -0.3198540036276218,
+        "prioridade": 201.00887063289878,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": -0.23211056375907832,
+        "prioridade": 24.356908822861605,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.510935749941458,
+        "prioridade": 20.649507082450224,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": -0.02904223057833781,
+        "prioridade": 17.52087978112246,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.351327301660465,
+        "prioridade": 13.621775905369224,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.235773"
+  },
+  {
+    "dia": 5,
+    "ndcg5": 1.0,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": -0.2876468902993025,
+        "prioridade": 198.54121172144735,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": -0.15589995879084806,
+        "prioridade": 23.591603145773565,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.4722677345578308,
+        "prioridade": 20.383562432425506,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.032869312955739485,
+        "prioridade": 16.985639112732187,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.367533134204369,
+        "prioridade": 13.450542798702356,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.237900"
+  },
+  {
+    "dia": 6,
+    "ndcg5": 0.9998867260809521,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": -0.27465577999844426,
+        "prioridade": 197.537128454392,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": -0.10299585012433432,
+        "prioridade": 23.04540098099861,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.42591462103260347,
+        "prioridade": 20.060116541820317,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.05763016338885005,
+        "prioridade": 16.766792863552602,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.3934340724049338,
+        "prioridade": 13.17224886137181,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.240011"
+  },
+  {
+    "dia": 7,
+    "ndcg5": 0.9993609332851352,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": -0.22691166919665595,
+        "prioridade": 193.8022991584785,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": -0.0577516556707475,
+        "prioridade": 22.567798044960323,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.37126182824783327,
+        "prioridade": 19.671926090826016,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.13657990938826384,
+        "prioridade": 16.049089008691574,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.4123486697157799,
+        "prioridade": 12.965246656439442,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.242266"
+  },
+  {
+    "dia": 8,
+    "ndcg5": 0.9971071224118899,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": -0.17367013233251177,
+        "prioridade": 189.55066081367767,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": -0.02457546620002357,
+        "prioridade": 22.21106105947913,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.3130053113727316,
+        "prioridade": 19.249521222561878,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.17945625059240772,
+        "prioridade": 15.645526463280369,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.4897521190797092,
+        "prioridade": 12.081240405093252,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.244537"
+  },
+  {
+    "dia": 9,
+    "ndcg5": 0.9940584685744415,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": -0.08493610997995915,
+        "prioridade": 182.24446976922428,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.052112761801494614,
+        "prioridade": 21.36366050900319,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.25013092345061255,
+        "prioridade": 18.782977563103092,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.23693658243633528,
+        "prioridade": 15.087581440942744,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.5706255098453247,
+        "prioridade": 11.082533198688203,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.246763"
+  },
+  {
+    "dia": 10,
+    "ndcg5": 0.9911603812105175,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": -0.050455787458236256,
+        "prioridade": 179.32513460648133,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.06655614434920096,
+        "prioridade": 21.200271879792933,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.18477212225765072,
+        "prioridade": 18.285384795478194,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.30288476901209876,
+        "prioridade": 14.420874472209107,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.6650048673856782,
+        "prioridade": 9.789041508113478,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.249076"
+  },
+  {
+    "dia": 11,
+    "ndcg5": 0.997923332772681,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.0046711733652245735,
+        "prioridade": 174.55631598902988,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.11079134793768428,
+        "prioridade": 20.691842771401408,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.15430782873845814,
+        "prioridade": 18.048765868964676,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.3646168420844635,
+        "prioridade": 13.767565778765018,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.0900374779282093,
+        "prioridade": 9.739243157851856,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.251217"
+  },
+  {
+    "dia": 12,
+    "ndcg5": 0.99406233570393,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.027933861185783337,
+        "prioridade": 172.5044027972977,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.20631287475270366,
+        "prioridade": 19.54888526043269,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.13281930289639904,
+        "prioridade": 17.87997927275201,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.4291625284024301,
+        "prioridade": 13.049550357925517,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.12807066652721322,
+        "prioridade": 9.533537962777176,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.253485"
+  },
+  {
+    "dia": 13,
+    "ndcg5": 0.9930278403521582,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.051988432650847724,
+        "prioridade": 170.35665134638745,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.25234629794800784,
+        "prioridade": 18.973505341326472,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": -0.043720818753493304,
+        "prioridade": 17.16243335582787,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.5141038357711419,
+        "prioridade": 12.039571938613275,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.1840203769933879,
+        "prioridade": 9.222594475535287,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.255824"
+  },
+  {
+    "dia": 14,
+    "ndcg5": 0.9852745452710501,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.13457453337392977,
+        "prioridade": 162.76728218303106,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.28269966117143264,
+        "prioridade": 18.584370192674317,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.03436788900500343,
+        "prioridade": 16.507927023578425,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.5774613839909274,
+        "prioridade": 11.22722725494996,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.7048238983435082,
+        "prioridade": 9.188857529595214,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.257934"
+  },
+  {
+    "dia": 15,
+    "ndcg5": 0.9788280237416103,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.19578966371023454,
+        "prioridade": 156.90511508697222,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.32691952214220776,
+        "prioridade": 18.002417404345707,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.07165030667757333,
+        "prioridade": 16.18611008608868,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.6501939677574232,
+        "prioridade": 10.215343104429529,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.7309834851965801,
+        "prioridade": 8.772237728019846,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.260204"
+  },
+  {
+    "dia": 16,
+    "ndcg5": 0.9809033344125152,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.2551783725705614,
+        "prioridade": 151.00051059505253,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.42006524627739594,
+        "prioridade": 16.71040199222222,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.14368408248248687,
+        "prioridade": 15.545464349910333,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.6871374611603588,
+        "prioridade": 9.66086677910923,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.27371558011881375,
+        "prioridade": 8.700952944852403,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.262518"
+  },
+  {
+    "dia": 17,
+    "ndcg5": 0.98550578089913,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.3330157533404273,
+        "prioridade": 142.8927073265334,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.474871772829065,
+        "prioridade": 15.90120408519483,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.2205409112954994,
+        "prioridade": 14.831441168027839,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.7583720318307877,
+        "prioridade": 8.49010207476066,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": -0.5080098107630554,
+        "prioridade": 8.412928836212501,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.264728"
+  },
+  {
+    "dia": 18,
+    "ndcg5": 0.9882202525012899,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.3779618476281853,
+        "prioridade": 137.99418561569215,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.2503023044431204,
+        "prioridade": 14.545537644148622,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.5634633355035329,
+        "prioridade": 14.497986556921314,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.7567511017458349,
+        "prioridade": 8.341542416835923,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": -0.46716339425553793,
+        "prioridade": 8.29820908365176,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.267061"
+  },
+  {
+    "dia": 19,
+    "ndcg5": 0.997378008235411,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.39381928654974263,
+        "prioridade": 136.2239075284605,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.2607809943654227,
+        "prioridade": 14.443526840199276,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.595073308711331,
+        "prioridade": 13.963218443166335,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.34183290724320975,
+        "prioridade": 8.282883220025855,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": -0.4398888149932127,
+        "prioridade": 8.220715355145284,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.269164"
+  },
+  {
+    "dia": 20,
+    "ndcg5": 0.9981014609875034,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.4622697368717489,
+        "prioridade": 128.30232190230413,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.2719040832328923,
+        "prioridade": 14.334448492076495,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.641593759359357,
+        "prioridade": 13.136664586795655,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": -0.3996594117596875,
+        "prioridade": 8.105061531156139,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.4044707323395057,
+        "prioridade": 7.878889526100772,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.271398"
+  },
+  {
+    "dia": 21,
+    "ndcg5": 0.9967635733551671,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.5399648758057362,
+        "prioridade": 118.67186628920192,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.3321446116815498,
+        "prioridade": 13.728652358259204,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.6836664672200747,
+        "prioridade": 12.341556779674029,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": -0.3500463902992926,
+        "prioridade": 7.960117488258966,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.4270117303465201,
+        "prioridade": 7.728341805231964,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.273672"
+  },
+  {
+    "dia": 22,
+    "ndcg5": 0.9830626638747971,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.6066913084214782,
+        "prioridade": 109.72840044003021,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.35390996073360953,
+        "prioridade": 13.503091591203216,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.7483126857058406,
+        "prioridade": 11.008496105202452,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": -0.2602583020585048,
+        "prioridade": 7.6908601694716525,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.8033787487020682,
+        "prioridade": 7.658690838592422,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.275772"
+  },
+  {
+    "dia": 23,
+    "ndcg5": 0.9580636328740202,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.6467669766183389,
+        "prioridade": 103.98792821338488,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.44381988401094097,
+        "prioridade": 12.528365642148666,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.7951302624299976,
+        "prioridade": 9.93198912627929,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.4574813098881328,
+        "prioridade": 7.520051387327538,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.8062697569089836,
+        "prioridade": 7.444227437118268,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.278140"
+  },
+  {
+    "dia": 24,
+    "ndcg5": 0.9655769795401282,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.718949136984817,
+        "prioridade": 92.75658224536166,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.4667278434094124,
+        "prioridade": 12.26764344992231,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.8800123858389659,
+        "prioridade": 7.600909099948164,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": -0.17745364696145244,
+        "prioridade": 7.4339055919917305,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.47100579172374035,
+        "prioridade": 7.425725903710753,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.280274"
+  },
+  {
+    "dia": 25,
+    "ndcg5": 0.9682602957092168,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.7630403096837163,
+        "prioridade": 85.1705620528748,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.5476816631901523,
+        "prioridade": 11.298187759271903,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.48444051006149746,
+        "prioridade": 7.3308249407325174,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.8241124355189026,
+        "prioridade": 7.243640334939489,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": -0.07939241275992434,
+        "prioridade": 7.1176202363146555,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.282392"
+  },
+  {
+    "dia": 26,
+    "ndcg5": 0.9569086751146008,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.8565742839977968,
+        "prioridade": 66.26219065565398,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.60060709334412,
+        "prioridade": 10.616634457598021,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": -0.05083786194334265,
+        "prioridade": 7.022843457250852,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.8388168332760415,
+        "prioridade": 6.790171814916287,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.5810055189963412,
+        "prioridade": 6.608723885411821,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.284803"
+  },
+  {
+    "dia": 27,
+    "ndcg5": 0.9402571190956113,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.877209280371192,
+        "prioridade": 61.31052693952757,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.6177591716999825,
+        "prioridade": 10.386165231767073,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": -0.0030578049257636367,
+        "prioridade": 6.8613269208691445,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.9161609933901114,
+        "prioridade": 6.353607637179796,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.6320190860573024,
+        "prioridade": 6.193356834543537,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.286915"
+  },
+  {
+    "dia": 28,
+    "ndcg5": 0.9824120820950791,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.8915563156195471,
+        "prioridade": 57.61749974890224,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.677809055034188,
+        "prioridade": 9.535497485867669,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.07331320904710073,
+        "prioridade": 6.594951683323823,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.652958680179742,
+        "prioridade": 6.014562597210372,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": -0.0127414402360361,
+        "prioridade": 5.889385634013283,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.289136"
+  },
+  {
+    "dia": 29,
+    "ndcg5": 0.8179734630309751,
+    "top5_conteudos": [
+      {
+        "classe": "Português",
+        "subclasse": "Competência leitora",
+        "desempenho": 0.9877631873398873,
+        "prioridade": 19.354699463235097,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.7252152792555688,
+        "prioridade": 8.806087184205218,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.08604334311616772,
+        "prioridade": 6.549496765848404,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.08558018136172263,
+        "prioridade": 5.5962037365184765,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.7362366498182584,
+        "prioridade": 5.243492863093819,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.291466"
+  },
+  {
+    "dia": 30,
+    "ndcg5": 0.8996847236071062,
+    "top5_conteudos": [
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.7460832000740273,
+        "prioridade": 8.465106156282838,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.1095733656033949,
+        "prioridade": 6.464637882999147,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.13778408051133034,
+        "prioridade": 5.434113694316809,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.7594815875298235,
+        "prioridade": 5.0071156257985105,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.9193575115896353,
+        "prioridade": 4.904799636822108,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.293568"
+  },
+  {
+    "dia": 31,
+    "ndcg5": 0.8206153719940631,
+    "top5_conteudos": [
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.8382986386799242,
+        "prioridade": 6.755282705194653,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.12792472836495467,
+        "prioridade": 6.397674167569752,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.2178834504306555,
+        "prioridade": 5.175549181169064,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.8030908569061246,
+        "prioridade": 4.530502737558198,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Proporcionalidade direta e indireta",
+        "desempenho": 0.961030012605536,
+        "prioridade": 4.331740808124151,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.295818"
+  },
+  {
+    "dia": 32,
+    "ndcg5": 0.7665482898215893,
+    "top5_conteudos": [
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.15672251856759875,
+        "prioridade": 6.291154972091038,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.28335339671350274,
+        "prioridade": 4.954196468823095,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.9341931580527718,
+        "prioridade": 4.309453664291093,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Espanhol",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.9382535591100251,
+        "prioridade": 4.291857318334468,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.9379409866250406,
+        "prioridade": 4.2133094264501985,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.298088"
+  },
+  {
+    "dia": 33,
+    "ndcg5": 0.9243651089195523,
+    "top5_conteudos": [
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.22682593787429162,
+        "prioridade": 6.023983448386533,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.3494866750491343,
+        "prioridade": 4.720073924928977,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.3252107124701525,
+        "prioridade": 4.1657099354218206,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.3221619142134073,
+        "prioridade": 3.5937231260519913,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.8841745359438401,
+        "prioridade": 3.474685328444774,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.300202"
+  },
+  {
+    "dia": 34,
+    "ndcg5": 0.9003111544555036,
+    "top5_conteudos": [
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.3078140775299732,
+        "prioridade": 5.699759262936005,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.38813138068780395,
+        "prioridade": 4.57772597654055,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.34804299133459216,
+        "prioridade": 4.094627657654071,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.3807804725857204,
+        "prioridade": 3.434819760300312,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.9596444830031784,
+        "prioridade": 3.3747231322481186,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.302597"
+  },
+  {
+    "dia": 35,
+    "ndcg5": 0.9843179813887911,
+    "top5_conteudos": [
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.37998438496469317,
+        "prioridade": 5.394440974716315,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.44474916574832934,
+        "prioridade": 4.360791393705581,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.41572805750362485,
+        "prioridade": 3.876256005429513,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": -0.1503983363935102,
+        "prioridade": 3.320054404401962,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.476224965305465,
+        "prioridade": 3.1590320207848843,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.304778"
+  },
+  {
+    "dia": 36,
+    "ndcg5": 0.9166903785140886,
+    "top5_conteudos": [
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.44726611818986195,
+        "prioridade": 5.093345950307698,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.4888722762295621,
+        "prioridade": 4.1839397409567445,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.4719836561701441,
+        "prioridade": 3.6849247129086344,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": -0.0779972688824533,
+        "prioridade": 3.2138818584254008,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Estatística",
+        "desempenho": 0.9670805168071542,
+        "prioridade": 3.0686504860046195,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.306899"
+  },
+  {
+    "dia": 37,
+    "ndcg5": 0.9724357365294978,
+    "top5_conteudos": [
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.47550633937020637,
+        "prioridade": 4.961525794032875,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.5290819952300725,
+        "prioridade": 4.015996722357431,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.48587908470854385,
+        "prioridade": 3.6361146829800313,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.0010070107044901216,
+        "prioridade": 3.0938716868539853,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.5416354024521359,
+        "prioridade": 2.9552019478481113,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.309381"
+  },
+  {
+    "dia": 38,
+    "ndcg5": 0.9045592383509155,
+    "top5_conteudos": [
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.5573283146148557,
+        "prioridade": 4.55812261698729,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.5908075422981531,
+        "prioridade": 3.743557534066553,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.5101952334185094,
+        "prioridade": 3.5490853205239143,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.025899981609801392,
+        "prioridade": 3.0550818749122257,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.9214011242451926,
+        "prioridade": 2.8623426588210714,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.311478"
+  },
+  {
+    "dia": 39,
+    "ndcg5": 0.9475793432491987,
+    "top5_conteudos": [
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.6285156822438106,
+        "prioridade": 4.175566206977025,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.6194948874874399,
+        "prioridade": 3.609948034396826,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.5488290656372624,
+        "prioridade": 3.406241948934388,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.11533327390521739,
+        "prioridade": 2.9114606473833433,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.593392786815043,
+        "prioridade": 2.783358645268991,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.313818"
+  },
+  {
+    "dia": 40,
+    "ndcg5": 0.902310107462942,
+    "top5_conteudos": [
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.7031459091899848,
+        "prioridade": 3.7326446849951713,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.5612673325279275,
+        "prioridade": 3.358960700665128,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.6918802679284164,
+        "prioridade": 3.2484819488028664,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.16086875650673257,
+        "prioridade": 2.835541603098515,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.6373147405287365,
+        "prioridade": 2.62873364334699,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.315995"
+  },
+  {
+    "dia": 41,
+    "ndcg5": 0.8260690012478478,
+    "top5_conteudos": [
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.5860144782671106,
+        "prioridade": 3.2628530351258433,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.8024384610896427,
+        "prioridade": 3.0450633488909298,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.7470418059386085,
+        "prioridade": 2.943371484296274,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.19421224595045727,
+        "prioridade": 2.778634408156673,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Funções",
+        "desempenho": 0.1947372771436536,
+        "prioridade": 2.5069004371460384,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.318093"
+  },
+  {
+    "dia": 42,
+    "ndcg5": 0.710227220366143,
+    "top5_conteudos": [
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.6258573388419736,
+        "prioridade": 3.101869709671515,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.8214453416877258,
+        "prioridade": 2.894881056245476,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.24710213842489392,
+        "prioridade": 2.6858954882544657,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.9782690412092935,
+        "prioridade": 2.4764304464082674,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.6787032461944401,
+        "prioridade": 2.474199984045529,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.320430"
+  },
+  {
+    "dia": 43,
+    "ndcg5": 0.8116627976055649,
+    "top5_conteudos": [
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.6745439561735763,
+        "prioridade": 2.8930178072931483,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.25783096259946103,
+        "prioridade": 2.666689763935641,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Funções",
+        "desempenho": 0.2561253581899794,
+        "prioridade": 2.40945137096076,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.8314978347308322,
+        "prioridade": 2.402279001078083,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.8777005411166051,
+        "prioridade": 2.395837727776765,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.322604"
+  },
+  {
+    "dia": 44,
+    "ndcg5": 0.7332884200023967,
+    "top5_conteudos": [
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.7281768466582089,
+        "prioridade": 2.643919083418622,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.3412946955941112,
+        "prioridade": 2.512272001164191,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.7179180402259648,
+        "prioridade": 2.3182981413373764,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Funções",
+        "desempenho": 0.3549395554089888,
+        "prioridade": 2.2437191479317486,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Português",
+        "subclasse": "Apreensão de sentido",
+        "desempenho": 0.9646561798178632,
+        "prioridade": 1.9194208166700728,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.324705"
+  },
+  {
+    "dia": 45,
+    "ndcg5": 0.7519112868940346,
+    "top5_conteudos": [
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.7738760320373391,
+        "prioridade": 2.411449854191785,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.43551586693514893,
+        "prioridade": 2.32566387719554,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.7317722819139981,
+        "prioridade": 2.260650673912374,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Funções",
+        "desempenho": 0.3838956664195454,
+        "prioridade": 2.192781811670023,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Física",
+        "subclasse": "Calorimetria",
+        "desempenho": 0.0515964470174908,
+        "prioridade": 1.9110447964956865,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.327091"
+  },
+  {
+    "dia": 46,
+    "ndcg5": 0.6031478121077773,
+    "top5_conteudos": [
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.45333253162612375,
+        "prioridade": 2.2886674498735413,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.769987858079406,
+        "prioridade": 2.0934230995930267,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Funções",
+        "desempenho": 0.4527113199813704,
+        "prioridade": 2.066695629931208,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Sociologia",
+        "subclasse": "Direito, cidadania e movimentos sociais",
+        "desempenho": 0.924432851783071,
+        "prioridade": 1.8832659239168938,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Biologia",
+        "subclasse": "Desequilíbrio em ecossistemas",
+        "desempenho": 0.8643069723960275,
+        "prioridade": 1.8680293810548192,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.329203"
+  },
+  {
+    "dia": 47,
+    "ndcg5": 0.75461020620216,
+    "top5_conteudos": [
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.4700887581974234,
+        "prioridade": 2.253318821824649,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Funções",
+        "desempenho": 0.5468446528295255,
+        "prioridade": 1.8805801293377815,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Física",
+        "subclasse": "Calorimetria",
+        "desempenho": 0.11122875063683524,
+        "prioridade": 1.849989569906383,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Química",
+        "subclasse": "Funções orgânicas",
+        "desempenho": -0.4114704817195331,
+        "prioridade": 1.7621696513930307,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria plana",
+        "desempenho": 0.9121858474040644,
+        "prioridade": 1.7342150843010289,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.331406"
+  },
+  {
+    "dia": 48,
+    "ndcg5": 0.7234372270346174,
+    "top5_conteudos": [
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.5308659282501867,
+        "prioridade": 2.1201645353090997,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Funções",
+        "desempenho": 0.5683922056583551,
+        "prioridade": 1.8353247781443032,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Física",
+        "subclasse": "Calorimetria",
+        "desempenho": 0.16886219605500008,
+        "prioridade": 1.7890018904196827,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Química",
+        "subclasse": "Funções orgânicas",
+        "desempenho": -0.36863271828468536,
+        "prioridade": 1.7352229233540366,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Geometria espacial",
+        "desempenho": 0.8499749842923543,
+        "prioridade": 1.6906880046045458,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.333758"
+  },
+  {
+    "dia": 49,
+    "ndcg5": 0.738595202403754,
+    "top5_conteudos": [
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.5985634820215922,
+        "prioridade": 1.961234464109956,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Funções",
+        "desempenho": 0.6223978580635467,
+        "prioridade": 1.7166648432768163,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Física",
+        "subclasse": "Calorimetria",
+        "desempenho": 0.24007922831928272,
+        "prioridade": 1.7106392758263418,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Química",
+        "subclasse": "Funções orgânicas",
+        "desempenho": -0.29783912190316997,
+        "prioridade": 1.6897491942904361,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Volume",
+        "desempenho": -0.2399915376803843,
+        "prioridade": 1.688987823357357,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.337764"
+  },
+  {
+    "dia": 50,
+    "ndcg5": 0.7250269657529154,
+    "top5_conteudos": [
+      {
+        "classe": "Matemática",
+        "subclasse": "Probabilidade",
+        "desempenho": 0.64726975394336,
+        "prioridade": 1.8384102321682896,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Química",
+        "subclasse": "Funções orgânicas",
+        "desempenho": -0.26024405340709117,
+        "prioridade": 1.665095494933223,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Matemática",
+        "subclasse": "Volume",
+        "desempenho": -0.18753075273220748,
+        "prioridade": 1.6528733996347122,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Física",
+        "subclasse": "Calorimetria",
+        "desempenho": 0.30588003872917957,
+        "prioridade": 1.6349013339960066,
+        "metrica": "sqrt(1-p)"
+      },
+      {
+        "classe": "Inglês",
+        "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+        "desempenho": 0.9907184133985375,
+        "prioridade": 1.6184444634412332,
+        "metrica": "sqrt(1-p)"
+      }
+    ],
+    "total_conteudos": 77,
+    "metrica_utilizada": "sqrt(1-p)",
+    "timestamp": "2025-08-30T15:32:41.340791"
+  }
+]

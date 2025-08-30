@@ -1,7 +1,8 @@
 # alita
 Study angel
 
-uvicorn main:app --reload
+docker compose up -d db
+DATABASE_URL=postgresql+asyncpg://user:password@localhost:5433/alita_db uvicorn app.main:app --reload
 
 testes
 

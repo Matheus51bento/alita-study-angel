@@ -1,17 +1,17 @@
 services:
-  app:
-    build: .
-    container_name: alita
-    ports:
-      - "8000:8000"
-    volumes:
-      - .:/app
-      - ./alembic:/app/alembic
-    environment:
-      - PYTHONUNBUFFERED=1
-      - DATABASE_URL=postgresql+asyncpg://user:password@db/alita_db
-    depends_on:
-      - db
+  # app:
+  #   build: .
+  #   container_name: alita
+  #   ports:
+  #     - "8000:8000"
+  #   volumes:
+  #     - .:/app
+  #     - ./alembic:/app/alembic
+  #   environment:
+  #     - PYTHONUNBUFFERED=1
+  #     - DATABASE_URL=postgresql+asyncpg://user:password@localhost:5433/alita_db
+  #   depends_on:
+  #     - db
 
   db:
     image: postgres:latest
@@ -20,7 +20,7 @@ services:
       POSTGRES_PASSWORD: password
       POSTGRES_DB: alita_db
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - db_data:/var/lib/postgresql/data
 

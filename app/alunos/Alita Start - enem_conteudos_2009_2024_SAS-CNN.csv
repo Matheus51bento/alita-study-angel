@@ -1,0 +1,78 @@
+ID,Classe,Subclasse,Desempenho,Peso da classe,Peso da subclasse,Peso por questão
+1,Matemática,Proporcionalidade direta e indireta,0,,0.145691,213
+2,Matemática,Estatística,0,,0.127907,187
+3,Matemática,Geometria plana,0,,0.075239,110
+4,Matemática,Geometria espacial,0,,0.064979,95
+5,Matemática,Probabilidade,0,,0.05472,80
+6,Matemática,Funções,0,,0.051984,76
+7,Matemática,Razão,0,,0.038988,57
+8,Matemática,Volume,0,,0.038304,56
+9,Matemática,Análise combinatória,0,,0.036936,54
+10,Matemática,Matemática financeira,0,,0.032832,48
+11,Matemática,Unidades de medida,0,,0.032148,47
+12,Matemática,Equações,0,,0.03078,45
+13,Matemática,Geometria analítica,0,,0.025992,38
+14,Matemática,Números racionais,0,,0.023256,34
+15,Matemática,Áreas de figuras planas,0,,0.0171,25
+16,Física,Calorimetria,0,,0.077088,36
+17,Física,Circuitos elétricos,0,,0.068522,32
+18,Física,Termodinâmica,0,,0.051392,24
+19,Física,Forças e movimento,0,,0.049251,23
+20,Física,Consumo de energia elétrica,0,,0.036403,17
+21,Física,Reflexão e refração,0,,0.029979,14
+22,Física,"Trabalho, energia e os teoremas",0,,0.027837,13
+23,Física,Propriedades físicas do som,0,,0.027837,13
+24,Física,Aplicações das propriedades das ondas,0,,0.023555,11
+25,Física,"Lançamento vertical, horizontal e oblíquo",0,,0.023555,11
+26,Física,Movimento uniforme,0,,0.019272,9
+27,Física,Fenômenos sonoros,0,,0.019272,9
+28,Física,Qualidades fisiológicas do som,0,,0.019272,9
+29,Química,Funções orgânicas,0,,0.059932,35
+30,Química,Reações orgânicas,0,,0.046233,27
+31,Química,Aplicações da cinética química,0,,0.041096,24
+32,Química,Pilhas,0,,0.032534,19
+33,Química,Processos de separação de misturas,0,,0.032534,19
+34,Química,Concentração de soluções,0,,0.02911,17
+35,Química,Controle de poluição,0,,0.02911,17
+36,Química,Tecnologias ambientais,0,,0.02911,17
+37,Química,Poluição da água,0,,0.025685,15
+38,Química,Tipos de reações químicas,0,,0.025685,15
+39,Química,Estrutura atômica,0,,0.023973,14
+40,Química,Entalpia das reações,0,,0.023973,14
+41,Química,Termoquímica,0,,0.02226,13
+42,Biologia,Desequilíbrio em ecossistemas,0,,0.115672,62
+43,Biologia,Doenças causadas por vírus (viroses),0,,0.04291,23
+44,Biologia,DNA – material genético e genética do funcionamento dos genes,0,,0.041045,22
+45,Biologia,Ciclos biogeoquímicos,0,,0.031716,17
+46,Biologia,Bioquímica,0,,0.031716,17
+47,Biologia,Biologia celular,0,,0.031716,17
+48,Biologia,Reações ecológicas,0,,0.029851,16
+49,Biologia,Cadeias e teias alimentares,0,,0.027985,15
+50,Biologia,Doenças causadas por protozoários (protozooses),0,,0.024254,13
+51,História,Brasil Colonial,0,,0.089641,45
+52,História,Primeira República,0,,0.061753,31
+53,História,Era Vargas,0,,0.051793,26
+54,História,História Pública,0,,0.043825,22
+55,História,Ditadura Civil-Militar no Brasil,0,,0.041833,21
+56,História,Brasil Império: Segundo Reinado,0,,0.041833,21
+57,História,Civilizações da Antiguidade Clássica,0,,0.025896,13
+58,História,Revolução Industrial,0,,0.025896,13
+59,História,Abolição da escravidão,0,,0.023904,12
+60,História,Absolutismo monárquico,0,,0.017928,9
+61,História,República Nova,0,,0.017928,9
+62,História,Trabalho escravo,0,,0.017928,9
+63,Geografia,Urbanização,0,,0.067901,33
+64,Geografia,Agropecuária,0,,0.065844,32
+65,Geografia,Desenvolvimento econômico,0,,0.049383,24
+66,Geografia,Ruralidade,0,,0.047325,23
+67,Geografia,Geopolítica e relações internacionais,0,,0.041152,20
+68,Geografia,Geomorfologia,0,,0.039095,19
+69,Geografia,Migrações,0,,0.039095,19
+70,Português,Competência leitora,0,,0.4395,563
+71,Português,Apreensão de sentido,0,,0.106167,136
+72,Inglês,Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos,0,,0.424242,56
+73,Espanhol,Apreensão de sentido,0,,0.46087,53
+74,Arte,Idade Contemporânea / papel social da arte,0,,0.272727,6
+75,Educação Física,"Conceituação de jogos, brincadeiras e esporte",0,,0.176471,3
+76,Filosofia,Filosofia política,0,,0.111732,20
+77,Sociologia,"Direito, cidadania e movimentos sociais",0,,0.20614,47

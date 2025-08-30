@@ -3,6 +3,7 @@ import numpy as np
 import os
 import json
 import random
+import argparse
 from copy import deepcopy
 
 
@@ -14,17 +15,13 @@ def escolher_metrica_disp(df, eps=1e-6, thr_cv_irt=0.5, thr_cv_sqrt=0.2):
       - linear, se coeficiente baixo
     """
     df = df.copy()
-    # 1) normaliza desempenho [-1,1] → [0,1]
     df["p_norm"] = (df["desempenho"] + 1) / 2
-    # 2) estatísticas de dispersão
     mean_p = df["p_norm"].mean()
     std_p = df["p_norm"].std()
-    cv = std_p / (mean_p + eps)  # coef. de variação
+    cv = std_p / (mean_p + eps)
 
-    # 3) clipping para IRT
     df["p_clip"] = df["p_norm"].clip(eps, 1 - eps)
 
-    # 4) escolhe lacuna
     if cv >= thr_cv_irt:
         df["lacuna"] = -np.log(df["p_clip"] / (1 - df["p_clip"]))
         df["metrica"] = "IRT 2PL"
@@ -35,12 +32,10 @@ def escolher_metrica_disp(df, eps=1e-6, thr_cv_irt=0.5, thr_cv_sqrt=0.2):
         df["lacuna"] = 1 - df["p_norm"]
         df["metrica"] = "linear(1-p)"
 
-    # 5) prioridade combinando todos os pesos
     df["prioridade"] = (
         df["lacuna"] * df["peso_classe"] * df["peso_subclasse"] * df["peso_por_questao"]
     )
 
-    # informar dispersão
     return df
 
 
@@ -56,14 +51,12 @@ def gerar_simulacao_de_desempenho(df, student_id, dias=200, resultados=None):
     top_5_materias = df.sort_values("prioridade", ascending=False).head(5)
 
     for index, row in top_5_materias.iterrows():
-        taxa_melhoria = random.uniform(0.01, 0.1)  # Sempre positivo
+        taxa_melhoria = random.uniform(0.01, 0.1)
 
-        # Atualiza o desempenho (limitado a 1.0)
         novo_desempenho = min(1.0, row["desempenho"] + taxa_melhoria)
 
         df.at[index, "desempenho"] = novo_desempenho
 
-    # Adiciona o student_id aos resultados de cada dia
     resultado_dia = df[
         [
             "classe",
@@ -75,7 +68,6 @@ def gerar_simulacao_de_desempenho(df, student_id, dias=200, resultados=None):
         ]
     ].to_dict(orient="records")
 
-    # Adiciona o student_id no resultado
     for item in resultado_dia:
         item["student_id"] = str(student_id)
 
@@ -85,25 +77,42 @@ def gerar_simulacao_de_desempenho(df, student_id, dias=200, resultados=None):
 
 
 def gerar_arquivos_de_desempenho(dados, dias=200, aluno="aluno"):
-    # Cria a pasta para o aluno, se não existir
     pasta_aluno = os.path.join("output", aluno)
     if not os.path.exists(pasta_aluno):
         os.makedirs(pasta_aluno)
 
     for i in range(dias):
-        # Cria o nome do arquivo para o dia, dentro da pasta do aluno
         arquivo_nome = os.path.join(pasta_aluno, f"desempenho_dia_{i+1}.json")
 
-        # Salva o arquivo JSON na pasta do aluno
         with open(arquivo_nome, "w") as f:
             json.dump(dados[i], f, indent=4)
         print(f"Arquivo gerado: {arquivo_nome}")
 
 
-df = pd.read_csv("alunos/aluno2.csv")
-
-# Gerar simulação de 200 dias de desempenho
-dados_simulados = gerar_simulacao_de_desempenho(df, 8000, dias=200)
-
-# Gerar arquivos JSON
-gerar_arquivos_de_desempenho(dados_simulados, dias=200)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Gerar simulação de desempenho para um aluno')
+    parser.add_argument('arquivo_csv', help='Caminho do arquivo CSV do aluno')
+    parser.add_argument('student_id', type=int, help='ID do aluno')
+    parser.add_argument('--dias', type=int, default=200, help='Número de dias para simular (padrão: 200)')
+    
+    args = parser.parse_args()
+    
+    if not os.path.exists(args.arquivo_csv):
+        print(f"❌ Arquivo não encontrado: {args.arquivo_csv}")
+        exit(1)
+    
+    print(f"📚 Carregando arquivo: {args.arquivo_csv}")
+    df = pd.read_csv(args.arquivo_csv)
+    print(f"   Conteúdos carregados: {len(df)}")
+    
+    print(f"🎯 Gerando simulação para aluno {args.student_id} por {args.dias} dias...")
+    
+    dados_simulados = gerar_simulacao_de_desempenho(df, args.student_id, dias=args.dias)
+    
+    print(f"💾 Salvando arquivos...")
+    
+    gerar_arquivos_de_desempenho(dados_simulados, dias=args.dias, aluno=f"aluno_{args.student_id}")
+    
+    print(f"✅ Simulação concluída!")
+    print(f"   📁 Arquivos salvos em: output/aluno_{args.student_id}/")
+    print(f"   📊 Total de dias simulados: {args.dias}") 

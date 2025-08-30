@@ -1,4 +1,4 @@
-ID,Classe,Subclasse,Desempenho,Peso da classe,Peso da subclasse,Peso por questão
+id,classe,subclasse,desempenho,peso_classe,peso_subclasse,peso_por_questao
 1,Matemática,Proporcionalidade direta e indireta,0,,0.145691,213
 2,Matemática,Estatística,0,,0.127907,187
 3,Matemática,Geometria plana,0,,0.075239,110

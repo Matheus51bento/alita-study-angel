@@ -48,13 +48,12 @@ def gerar_simulacao_de_desempenho(df, student_id, dias=200, resultados=None):
 
     df = escolher_metrica_disp(df)
 
-    top_5_materias = df.sort_values("prioridade", ascending=False).head(5)
-
-    for index, row in top_5_materias.iterrows():
-        taxa_melhoria = random.uniform(0.01, 0.1)
+    # Atualizar TODOS os conteúdos (não apenas top 5)
+    for index, row in df.iterrows():
+        # Taxa de melhoria aleatória para todos os conteúdos
+        taxa_melhoria = random.uniform(-0.01, 0.05)
 
         novo_desempenho = min(1.0, row["desempenho"] + taxa_melhoria)
-
         df.at[index, "desempenho"] = novo_desempenho
 
     resultado_dia = df[

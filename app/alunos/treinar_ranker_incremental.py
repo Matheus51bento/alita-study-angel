@@ -59,17 +59,26 @@ def treinar_ranker(X: pd.DataFrame, y: pd.Series, group: List[int]) -> object:
     try:
         from xgboost import XGBRanker
         
-        # Configurar modelo de ranking como na API
+        # Configurar modelo de ranking otimizado
         model = XGBRanker(
             objective="rank:pairwise",
-            learning_rate=0.1,
+            learning_rate=0.05,
             max_depth=4,
-            n_estimators=100,
-            verbosity=0  # silêncio interno do XGBoost
+            n_estimators=200,
+            min_child_weight=5,
+            subsample=0.8,
+            colsample_bytree=0.8,
+            gamma=0.2,
+            reg_alpha=0.5,
+            reg_lambda=0.5,
+            verbosity=0,
+            random_state=42
         )
         
         # Treinar modelo com grupos
+        print(f"   🔄 Treinando modelo com {len(X)} amostras, {len(group)} grupos...")
         model.fit(X, y, group=group)
+        print(f"   ✅ Modelo treinado com sucesso!")
         return model
         
     except ImportError:
@@ -79,13 +88,22 @@ def treinar_ranker(X: pd.DataFrame, y: pd.Series, group: List[int]) -> object:
         
         model = XGBRanker(
             objective="rank:pairwise",
-            learning_rate=0.1,
+            learning_rate=0.05,
             max_depth=4,
-            n_estimators=100,
-            verbosity=0
+            n_estimators=200,
+            min_child_weight=5,
+            subsample=0.8,
+            colsample_bytree=0.8,
+            gamma=0.2,
+            reg_alpha=0.5,
+            reg_lambda=0.5,
+            verbosity=0,
+            random_state=42
         )
         
+        print(f"   🔄 Treinando modelo com {len(X)} amostras, {len(group)} grupos...")
         model.fit(X, y, group=group)
+        print(f"   ✅ Modelo treinado com sucesso!")
         return model
 
 def dcg(relevancias, k):

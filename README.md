@@ -6,9 +6,11 @@ DATABASE_URL=postgresql+asyncpg://user:password@localhost:5433/alita_db uvicorn 
 
 ## Gerar
 
-python gerar_alunos.py <total_alunos>
+# XGBoost Ranker
+python treinar_ranker_incremental.py output/aluno_1000 --pasta-saida resultados_ranker
 
-python gerar_simulacao.py alunos_gerados/aluno_1000.csv 1000 --dias 50
+# IRT
+python treinar_irt_incremental.py alunos_gerados/aluno_1000.csv --dias 50 --pasta-saida resultados_irt
 
 ## testes
 

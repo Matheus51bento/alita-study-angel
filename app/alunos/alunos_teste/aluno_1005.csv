@@ -1,0 +1,78 @@
+id,classe,subclasse,desempenho,peso_classe,peso_subclasse,peso_por_questao
+1,Matemática,Proporcionalidade direta e indireta,-0.2784812093336595,1.0,0.145691,213.0
+2,Matemática,Estatística,0.10330466791227258,1.0,0.127907,187.0
+3,Matemática,Geometria plana,0.608675467640647,1.0,0.075239,110.0
+4,Matemática,Geometria espacial,-0.05238899371928719,1.0,0.064979,95.0
+5,Matemática,Probabilidade,-0.24940925064477812,1.0,0.05472,80.0
+6,Matemática,Funções,-0.28162227763470243,1.0,0.051984,76.0
+7,Matemática,Razão,-0.21736457594673594,1.0,0.038988,57.0
+8,Matemática,Volume,0.8610756829035829,1.0,0.038304,56.0
+9,Matemática,Análise combinatória,0.42172675009927224,1.0,0.036936,54.0
+10,Matemática,Matemática financeira,-0.1806425393164998,1.0,0.032832,48.0
+11,Matemática,Unidades de medida,-0.6749876732651886,1.0,0.032148,47.0
+12,Matemática,Equações,1.0,1.0,0.03078,45.0
+13,Matemática,Geometria analítica,-0.2003580500333591,1.0,0.025992,38.0
+14,Matemática,Números racionais,0.6279983931137872,1.0,0.023256,34.0
+15,Matemática,Áreas de figuras planas,-0.40962596949724145,1.0,0.0171,25.0
+16,Física,Calorimetria,-0.6625732994083182,1.0,0.077088,36.0
+17,Física,Circuitos elétricos,0.4880753397260337,1.0,0.068522,32.0
+18,Física,Termodinâmica,0.20966501499119616,1.0,0.051392,24.0
+19,Física,Forças e movimento,-0.24569990808428052,1.0,0.049251,23.0
+20,Física,Consumo de energia elétrica,-0.5214645220961832,1.0,0.036403,17.0
+21,Física,Reflexão e refração,0.5679689551049362,1.0,0.029979,14.0
+22,Física,"Trabalho, energia e os teoremas",0.4120242181204619,1.0,0.027837,13.0
+23,Física,Propriedades físicas do som,0.8681092714775206,1.0,0.027837,13.0
+24,Física,Aplicações das propriedades das ondas,0.5914512724802665,1.0,0.023555,11.0
+25,Física,"Lançamento vertical, horizontal e oblíquo",0.12234928765758223,1.0,0.023555,11.0
+26,Física,Movimento uniforme,-0.20967704070982898,1.0,0.019272,9.0
+27,Física,Fenômenos sonoros,0.7770654781734306,1.0,0.019272,9.0
+28,Física,Qualidades fisiológicas do som,0.28226574222541284,1.0,0.019272,9.0
+29,Química,Funções orgânicas,-0.862116456208794,1.0,0.059932,35.0
+30,Química,Reações orgânicas,0.8055314080601091,1.0,0.046233,27.0
+31,Química,Aplicações da cinética química,-0.4346394123273846,1.0,0.041096,24.0
+32,Química,Pilhas,-0.16142217732266625,1.0,0.032534,19.0
+33,Química,Processos de separação de misturas,-0.10133846264771236,1.0,0.032534,19.0
+34,Química,Concentração de soluções,-0.10882868971047929,1.0,0.02911,17.0
+35,Química,Controle de poluição,0.27433989979832857,1.0,0.02911,17.0
+36,Química,Tecnologias ambientais,0.3864483100676694,1.0,0.02911,17.0
+37,Química,Poluição da água,0.3964171237185099,1.0,0.025685,15.0
+38,Química,Tipos de reações químicas,-0.05877109183512494,1.0,0.025685,15.0
+39,Química,Estrutura atômica,-0.8475045552071827,1.0,0.023973,14.0
+40,Química,Entalpia das reações,0.9625934796453521,1.0,0.023973,14.0
+41,Química,Termoquímica,0.49919945686901745,1.0,0.02226,13.0
+42,Biologia,Desequilíbrio em ecossistemas,-0.4427679279047167,1.0,0.115672,62.0
+43,Biologia,Doenças causadas por vírus (viroses),0.550627698491226,1.0,0.04291,23.0
+44,Biologia,DNA – material genético e genética do funcionamento dos genes,-0.1047473332432366,1.0,0.041045,22.0
+45,Biologia,Ciclos biogeoquímicos,-0.06433152857932488,1.0,0.031716,17.0
+46,Biologia,Bioquímica,0.44116204843356815,1.0,0.031716,17.0
+47,Biologia,Biologia celular,0.10690795923251771,1.0,0.031716,17.0
+48,Biologia,Reações ecológicas,-0.23078598033289902,1.0,0.029851,16.0
+49,Biologia,Cadeias e teias alimentares,0.15948704002750153,1.0,0.027985,15.0
+50,Biologia,Doenças causadas por protozoários (protozooses),-0.225982298844688,1.0,0.024254,13.0
+51,História,Brasil Colonial,0.7053319260529651,1.0,0.089641,45.0
+52,História,Primeira República,-0.544472843344801,1.0,0.061753,31.0
+53,História,Era Vargas,-1.0,1.0,0.051793,26.0
+54,História,História Pública,0.060842114816313755,1.0,0.043825,22.0
+55,História,Ditadura Civil-Militar no Brasil,-0.14928326760803654,1.0,0.041833,21.0
+56,História,Brasil Império: Segundo Reinado,-0.2188284203134316,1.0,0.041833,21.0
+57,História,Civilizações da Antiguidade Clássica,0.19464136494002157,1.0,0.025896,13.0
+58,História,Revolução Industrial,0.15084503483377854,1.0,0.025896,13.0
+59,História,Abolição da escravidão,0.858726393765296,1.0,0.023904,12.0
+60,História,Absolutismo monárquico,0.12954599990066615,1.0,0.017928,9.0
+61,História,República Nova,0.1345364041636549,1.0,0.017928,9.0
+62,História,Trabalho escravo,-1.0,1.0,0.017928,9.0
+63,Geografia,Urbanização,-0.03311837938681795,1.0,0.067901,33.0
+64,Geografia,Agropecuária,0.12257377481802516,1.0,0.065844,32.0
+65,Geografia,Desenvolvimento econômico,-0.19362292493969518,1.0,0.049383,24.0
+66,Geografia,Ruralidade,-0.3314754379875091,1.0,0.047325,23.0
+67,Geografia,Geopolítica e relações internacionais,-0.6084447083344897,1.0,0.041152,20.0
+68,Geografia,Geomorfologia,-0.1819485199270093,1.0,0.039095,19.0
+69,Geografia,Migrações,-0.5545668377686608,1.0,0.039095,19.0
+70,Português,Competência leitora,-0.5666356747374157,1.0,0.4395,563.0
+71,Português,Apreensão de sentido,-1.0,1.0,0.106167,136.0
+72,Inglês,Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos,0.26808759740058524,1.0,0.424242,56.0
+73,Espanhol,Apreensão de sentido,0.7364604139156441,1.0,0.46087,53.0
+74,Arte,Idade Contemporânea / papel social da arte,0.6127884831938661,1.0,0.272727,6.0
+75,Educação Física,"Conceituação de jogos, brincadeiras e esporte",0.35415732688968005,1.0,0.176471,3.0
+76,Filosofia,Filosofia política,0.8785016762025436,1.0,0.111732,20.0
+77,Sociologia,"Direito, cidadania e movimentos sociais",-0.7434037510450799,1.0,0.20614,47.0

@@ -1,0 +1,695 @@
+[
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Proporcionalidade direta e indireta",
+    "desempenho": -0.2784812093336595,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.145691,
+    "peso_por_questao": 213.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Estatística",
+    "desempenho": 0.10330466791227258,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.127907,
+    "peso_por_questao": 187.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Geometria plana",
+    "desempenho": 0.608675467640647,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.075239,
+    "peso_por_questao": 110.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Geometria espacial",
+    "desempenho": -0.05238899371928719,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.064979,
+    "peso_por_questao": 95.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Probabilidade",
+    "desempenho": -0.24940925064477812,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.05472,
+    "peso_por_questao": 80.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Funções",
+    "desempenho": -0.28162227763470243,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.051984,
+    "peso_por_questao": 76.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Razão",
+    "desempenho": -0.21736457594673594,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.038988,
+    "peso_por_questao": 57.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Volume",
+    "desempenho": 0.8610756829035829,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.038304,
+    "peso_por_questao": 56.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Análise combinatória",
+    "desempenho": 0.42172675009927224,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.036936,
+    "peso_por_questao": 54.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Matemática financeira",
+    "desempenho": -0.1806425393164998,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.032832,
+    "peso_por_questao": 48.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Unidades de medida",
+    "desempenho": -0.6749876732651886,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.032148,
+    "peso_por_questao": 47.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Equações",
+    "desempenho": 1.0,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.03078,
+    "peso_por_questao": 45.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Geometria analítica",
+    "desempenho": -0.2003580500333591,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.025992,
+    "peso_por_questao": 38.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Números racionais",
+    "desempenho": 0.6279983931137872,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.023256,
+    "peso_por_questao": 34.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Matemática",
+    "subclasse": "Áreas de figuras planas",
+    "desempenho": -0.40962596949724145,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.0171,
+    "peso_por_questao": 25.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Calorimetria",
+    "desempenho": -0.6625732994083182,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.077088,
+    "peso_por_questao": 36.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Circuitos elétricos",
+    "desempenho": 0.4880753397260337,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.068522,
+    "peso_por_questao": 32.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Termodinâmica",
+    "desempenho": 0.20966501499119616,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.051392,
+    "peso_por_questao": 24.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Forças e movimento",
+    "desempenho": -0.24569990808428052,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.049251,
+    "peso_por_questao": 23.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Consumo de energia elétrica",
+    "desempenho": -0.5214645220961832,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.036403,
+    "peso_por_questao": 17.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Reflexão e refração",
+    "desempenho": 0.5679689551049362,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.029979,
+    "peso_por_questao": 14.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Trabalho, energia e os teoremas",
+    "desempenho": 0.4120242181204619,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.027837,
+    "peso_por_questao": 13.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Propriedades físicas do som",
+    "desempenho": 0.8681092714775206,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.027837,
+    "peso_por_questao": 13.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Aplicações das propriedades das ondas",
+    "desempenho": 0.5914512724802665,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.023555,
+    "peso_por_questao": 11.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Lançamento vertical, horizontal e oblíquo",
+    "desempenho": 0.12234928765758223,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.023555,
+    "peso_por_questao": 11.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Movimento uniforme",
+    "desempenho": -0.20967704070982898,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.019272,
+    "peso_por_questao": 9.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Fenômenos sonoros",
+    "desempenho": 0.7770654781734306,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.019272,
+    "peso_por_questao": 9.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Física",
+    "subclasse": "Qualidades fisiológicas do som",
+    "desempenho": 0.28226574222541284,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.019272,
+    "peso_por_questao": 9.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Funções orgânicas",
+    "desempenho": -0.862116456208794,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.059932,
+    "peso_por_questao": 35.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Reações orgânicas",
+    "desempenho": 0.8055314080601091,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.046233,
+    "peso_por_questao": 27.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Aplicações da cinética química",
+    "desempenho": -0.4346394123273846,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.041096,
+    "peso_por_questao": 24.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Pilhas",
+    "desempenho": -0.16142217732266625,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.032534,
+    "peso_por_questao": 19.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Processos de separação de misturas",
+    "desempenho": -0.10133846264771236,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.032534,
+    "peso_por_questao": 19.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Concentração de soluções",
+    "desempenho": -0.10882868971047929,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.02911,
+    "peso_por_questao": 17.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Controle de poluição",
+    "desempenho": 0.27433989979832857,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.02911,
+    "peso_por_questao": 17.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Tecnologias ambientais",
+    "desempenho": 0.3864483100676694,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.02911,
+    "peso_por_questao": 17.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Poluição da água",
+    "desempenho": 0.3964171237185099,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.025685,
+    "peso_por_questao": 15.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Tipos de reações químicas",
+    "desempenho": -0.05877109183512494,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.025685,
+    "peso_por_questao": 15.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Estrutura atômica",
+    "desempenho": -0.8475045552071827,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.023973,
+    "peso_por_questao": 14.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Entalpia das reações",
+    "desempenho": 0.9625934796453521,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.023973,
+    "peso_por_questao": 14.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Química",
+    "subclasse": "Termoquímica",
+    "desempenho": 0.49919945686901745,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.02226,
+    "peso_por_questao": 13.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Biologia",
+    "subclasse": "Desequilíbrio em ecossistemas",
+    "desempenho": -0.4427679279047167,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.115672,
+    "peso_por_questao": 62.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Biologia",
+    "subclasse": "Doenças causadas por vírus (viroses)",
+    "desempenho": 0.550627698491226,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.04291,
+    "peso_por_questao": 23.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Biologia",
+    "subclasse": "DNA – material genético e genética do funcionamento dos genes",
+    "desempenho": -0.1047473332432366,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.041045,
+    "peso_por_questao": 22.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Biologia",
+    "subclasse": "Ciclos biogeoquímicos",
+    "desempenho": -0.06433152857932488,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.031716,
+    "peso_por_questao": 17.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Biologia",
+    "subclasse": "Bioquímica",
+    "desempenho": 0.44116204843356815,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.031716,
+    "peso_por_questao": 17.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Biologia",
+    "subclasse": "Biologia celular",
+    "desempenho": 0.10690795923251771,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.031716,
+    "peso_por_questao": 17.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Biologia",
+    "subclasse": "Reações ecológicas",
+    "desempenho": -0.23078598033289902,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.029851,
+    "peso_por_questao": 16.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Biologia",
+    "subclasse": "Cadeias e teias alimentares",
+    "desempenho": 0.15948704002750153,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.027985,
+    "peso_por_questao": 15.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Biologia",
+    "subclasse": "Doenças causadas por protozoários (protozooses)",
+    "desempenho": -0.225982298844688,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.024254,
+    "peso_por_questao": 13.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "Brasil Colonial",
+    "desempenho": 0.7053319260529651,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.089641,
+    "peso_por_questao": 45.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "Primeira República",
+    "desempenho": -0.544472843344801,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.061753,
+    "peso_por_questao": 31.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "Era Vargas",
+    "desempenho": -1.0,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.051793,
+    "peso_por_questao": 26.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "História Pública",
+    "desempenho": 0.060842114816313755,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.043825,
+    "peso_por_questao": 22.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "Ditadura Civil-Militar no Brasil",
+    "desempenho": -0.14928326760803654,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.041833,
+    "peso_por_questao": 21.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "Brasil Império: Segundo Reinado",
+    "desempenho": -0.2188284203134316,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.041833,
+    "peso_por_questao": 21.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "Civilizações da Antiguidade Clássica",
+    "desempenho": 0.19464136494002157,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.025896,
+    "peso_por_questao": 13.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "Revolução Industrial",
+    "desempenho": 0.15084503483377854,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.025896,
+    "peso_por_questao": 13.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "Abolição da escravidão",
+    "desempenho": 0.858726393765296,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.023904,
+    "peso_por_questao": 12.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "Absolutismo monárquico",
+    "desempenho": 0.12954599990066615,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.017928,
+    "peso_por_questao": 9.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "República Nova",
+    "desempenho": 0.1345364041636549,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.017928,
+    "peso_por_questao": 9.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "História",
+    "subclasse": "Trabalho escravo",
+    "desempenho": -1.0,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.017928,
+    "peso_por_questao": 9.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Geografia",
+    "subclasse": "Urbanização",
+    "desempenho": -0.03311837938681795,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.067901,
+    "peso_por_questao": 33.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Geografia",
+    "subclasse": "Agropecuária",
+    "desempenho": 0.12257377481802516,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.065844,
+    "peso_por_questao": 32.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Geografia",
+    "subclasse": "Desenvolvimento econômico",
+    "desempenho": -0.19362292493969518,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.049383,
+    "peso_por_questao": 24.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Geografia",
+    "subclasse": "Ruralidade",
+    "desempenho": -0.3314754379875091,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.047325,
+    "peso_por_questao": 23.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Geografia",
+    "subclasse": "Geopolítica e relações internacionais",
+    "desempenho": -0.6084447083344897,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.041152,
+    "peso_por_questao": 20.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Geografia",
+    "subclasse": "Geomorfologia",
+    "desempenho": -0.1819485199270093,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.039095,
+    "peso_por_questao": 19.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Geografia",
+    "subclasse": "Migrações",
+    "desempenho": -0.5545668377686608,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.039095,
+    "peso_por_questao": 19.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Português",
+    "subclasse": "Competência leitora",
+    "desempenho": -0.5666356747374157,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.4395,
+    "peso_por_questao": 563.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Português",
+    "subclasse": "Apreensão de sentido",
+    "desempenho": -1.0,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.106167,
+    "peso_por_questao": 136.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Inglês",
+    "subclasse": "Definição/interpretação de estruturas linguísticas e aspectos discursivos em textos",
+    "desempenho": 0.26808759740058524,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.424242,
+    "peso_por_questao": 56.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Espanhol",
+    "subclasse": "Apreensão de sentido",
+    "desempenho": 0.7364604139156441,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.46087,
+    "peso_por_questao": 53.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Arte",
+    "subclasse": "Idade Contemporânea / papel social da arte",
+    "desempenho": 0.6127884831938661,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.272727,
+    "peso_por_questao": 6.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Educação Física",
+    "subclasse": "Conceituação de jogos, brincadeiras e esporte",
+    "desempenho": 0.35415732688968005,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.176471,
+    "peso_por_questao": 3.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Filosofia",
+    "subclasse": "Filosofia política",
+    "desempenho": 0.8785016762025436,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.111732,
+    "peso_por_questao": 20.0
+  },
+  {
+    "student_id": "1005",
+    "classe": "Sociologia",
+    "subclasse": "Direito, cidadania e movimentos sociais",
+    "desempenho": -0.7434037510450799,
+    "peso_classe": 1.0,
+    "peso_subclasse": 0.20614,
+    "peso_por_questao": 47.0
+  }
+]
